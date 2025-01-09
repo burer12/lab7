@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота N7</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Підключення jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    
+    <!-- Підключення Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Підключення Unite Gallery -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/unitegallery@1.7.52/dist/css/unite-gallery.css">
+    <script src="https://cdn.jsdelivr.net/npm/unitegallery@1.7.52/dist/js/unitegallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/unitegallery@1.7.52/dist/themes/default/ug-theme-default.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container" style="border-radius: 20px;">
+
+        <!--Unite Gallery-->
+        <h1>Unite Gallery</h1>
+        
+          <div id="gallery" style="display:none;" class="box"> 
+            <img alt="Image 1 Title" src="https://telegraf.com.ua/static/storage/originals/a/86/fd0f21367f51f5a9ca8c2ff4d8e1586a.jpg" data-image="https://telegraf.com.ua/static/storage/originals/a/86/fd0f21367f51f5a9ca8c2ff4d8e1586a.jpg" data-description="Image 1 Description"> 
+            <img alt="Image 2 Title" src="https://telegraf.com.ua/static/storage/thumbs/1200x630/b/7b/167a63cc-debbde9f2ce10913569544a0dca1d7bb.jpg?v=5371_1" data-image="https://telegraf.com.ua/static/storage/thumbs/1200x630/b/7b/167a63cc-debbde9f2ce10913569544a0dca1d7bb.jpg?v=5371_1" data-description="Image 2 Description"> 
+            <img alt="Image 3 Title" src="https://telegraf.com.ua/static/storage/thumbs/700-*/7/3d/fbc55342-8bf7d6bd3f601a01b17f5d32c74f53d7.webp?v=5729_1" data-image="https://telegraf.com.ua/static/storage/thumbs/700-*/7/3d/fbc55342-8bf7d6bd3f601a01b17f5d32c74f53d7.webp?v=5729_1" data-description="Image 3 Description">
+            <img alt="Image 4 Title" src="https://telegraf.com.ua/static/storage/thumbs/700-*/7/3a/b27085fd-5901fe9d737d9eb7d175ee7bece5f3a7.webp?v=5729_1" data-image="https://telegraf.com.ua/static/storage/thumbs/700-*/7/3a/b27085fd-5901fe9d737d9eb7d175ee7bece5f3a7.webp?v=5729_1" data-description="Image 4 Description">
+            <img alt="Image 5 Title" src="https://telegraf.com.ua/static/storage/thumbs/700-*/c/34/a16ced45-c687bb6118d94c73eef35eaf5aee334c.webp?v=5729_1" data-image="https://telegraf.com.ua/static/storage/thumbs/700-*/c/34/a16ced45-c687bb6118d94c73eef35eaf5aee334c.webp?v=5729_1" data-description="Image 5 Description"> 
+            <img alt="Image 6 Title" src="https://img.novosti-n.org/upload/ukraine/1112340.jpg?v=0747_1" data-image="https://img.novosti-n.org/upload/ukraine/1112340.jpg?v=0747_1" data-description="Image 6 Description"> 
+            <img alt="Image 7 Title" src="https://telegraf.com.ua/static/storage/thumbs/396-*/5/cc/e84a227b-5c91f561b56a34e54a7823ee6ce2acc5.jpg?v=7217_1" data-image="https://telegraf.com.ua/static/storage/thumbs/396-*/5/cc/e84a227b-5c91f561b56a34e54a7823ee6ce2acc5.jpg?v=7217_1" data-description="Image 7 Description"> 
+            <img alt="Image 8 Title" src="https://telegraf.com.ua/static/storage/originals/6/44/185c0150491cbc788dae41b97233e446.jpg" data-image="https://telegraf.com.ua/static/storage/originals/6/44/185c0150491cbc788dae41b97233e446.jpg" data-description="Image 8 Description">
+            <img alt="Image 9 Title" src="https://telegraf.com.ua/static/storage/thumbs/428-*/e/fc/799d75b6-2931369e45e919eb317cfa5cb0498fce.jpg?v=3449_1" data-image="https://telegraf.com.ua/static/storage/thumbs/428-*/e/fc/799d75b6-2931369e45e919eb317cfa5cb0498fce.jpg?v=3449_1" data-description="Image 9 Description">
+          </div>
+  
+        <h1>Video Slider</h1>
+
+          <div id="gallery-video" class="box"> 
+          
+            <div data-type="youtube"
+              data-videoid="oxxHL6r-PZA"
+              data-title="Мамині Світлиці"
+              data-description="Петро Щур"></div>
+            
+            <div data-type="youtube"
+              data-videoid="3L35WAgDKis"
+              data-title="Ровер Їде"
+              data-description="Андрій Мацевко"></div>		
+            
+            <div data-type="youtube"
+              data-videoid="9gocgTQhtOc"
+              data-title="Пляцки"
+              data-description="Мацевко"></div>
+            
+            <div data-type="youtube"
+              data-videoid="c0oFAhYaiXI"
+              data-title="Щастя, здоровля племінників"
+              data-description="Вуйко Стьопа"></div>							
+          </div>	
+
+        <!--Unite Gallery-->
+
+        <!--Owl Carousel-->
+        <h1>Owl Carousel</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="https://shlyahta.com.ua/wp-content/uploads/22046666_1403346903095916_6969256758975450919_n_resize-1024x400.jpg"></div>
+            <div class="item"><img src="https://shlyahta.com.ua/wp-content/uploads/22256617_1407743082656298_8580667543299349353_o_resize.jpg"></div>
+            <div class="item"><img src="https://shlyahta.com.ua/wp-content/uploads/23156984_1432198946877378_3974824734713360222_o_resize.jpg"></div>
+            <div class="item"><img src="https://shlyahta.com.ua/wp-content/uploads/22528897_1418902031540403_691127442061822630_o_resize.jpg"></div>
+            <div class="item"><img src="https://shlyahta.com.ua/wp-content/uploads/23120307_1429942850436321_4124157094833508378_o_resize.jpg"></div>
+            <div class="item"><img src="https://shlyahta.com.ua/wp-content/uploads/23270325_1433896926707580_2621056629237166309_o_resize.jpg"></div>
+            <div class="item"><img src="https://shlyahta.com.ua/wp-content/uploads/22467427_1416323531798253_6007293372554279662_o_resize.jpg"></div>
+        </div>
+        <!--Owl Carousel-->   
+  
+        <!--Tabs-->
+        <h1>Tabs</h1>
+        <div id="tabs">
+            <ul>
+              <li><a href="#tabs-3">Мамині світлиці</a></li>
+              <li><a href="#tabs-2">Пляцки</a></li>
+              <li><a href="#tabs-1">Ровер їде</a></li>
+            </ul>
+            <div id="tabs-1">
+              <p>Приспів:<br>
+                Ровер їде! Ровер їде! |<br>
+                Ой-йой-йой! |<br>
+                Ровер їде! Ровер їде! |<br>
+                Ой-йой-йой! |<br>
+                Україна так радіє, |<br>
+                Бо ти - моя, моя мрія! | (2)<br>
+                <br>
+                Я виходжу з хати,<br>
+                На ровер сідаю,<br>
+                Я їду до неї,<br>
+                Бо її кохаю!<br>
+                Я їду до неї,<br>
+                На неї дивлюся,<br>
+                За її здоров'я<br>
+                Щиро помолюся!<br>
+                <br>
+                Приспів.<br>
+                <br>
+                Мила, моя мила,<br>
+                Ти така красива,<br>
+                Ти така гарненька,<br>
+                Ти - моє серденько!<br>
+                Ти будеш моєю<br>
+                Завтра до обіду,<br>
+                Я до тебе, люба,<br>
+                Ровером приїду!<br>
+                <br>
+                Приспів.</p>
+            </div>
+            <div id="tabs-2">
+              <p>Приспів:<br>
+                Я несу тобі! Тобі! Тобі |<br>
+                Пляцки! Пляцки! Пляцки! |<br>
+                Пляцки! Пляцки! Пляцки |<br>
+                Я несу тільки тобі! | (2)<br>
+                <br>
+                Я тобі дарую<br>
+                Золото і срібло!<br>
+                Я тобі дарую<br>
+                Свої почуття!<br>
+                Я тобі принесу<br>
+                На твоє подвір'я,<br>
+                Вийди, мила, з хати<br>
+                І зустрінь мене!<br>
+                <br>
+                Приспів.<br>
+                <br>
+                Вийди! Вийди, мила,<br>
+                Сядем на порозі.<br>
+                Я принесу пляцки,<br>
+                Обійму тебе!<br>
+                Будем смакувати<br>
+                Разом до нестями<br>
+                Пляцки і дивитися<br>
+                В небо голубе!<br>
+                <br>
+                Приспів.</p>
+            </div>
+            <div id="tabs-3">
+              <p>D Hm<br>
+                Скільки себе пам'ятаю,<br>
+                G A<br>
+                Завше світили мені<br>
+                Вікна в задумі розмаю,<br>
+                І рушники на стіні. | (2)<br>
+                <br>
+                В тиші світлиці урочій<br>
+                Серцем читало дитя<br>
+                Добрі Шевченкові очі<br>
+                І золоте вишиття. | (2)<br>
+                <br>
+                Приспів:<br>
+                D A<br>
+                Мамо, ваші діти як птиці,<br>
+                A D<br>
+                В далеч забриніли крильми.<br>
+                Мамо, в рідні стіни світлиці<br>
+                Скоро знов повернемось ми.<br>
+                <br>
+                Вічна дитяча спокусо -<br>
+                Двері прочиниш, а там -<br>
+                Білим недільним обрусом<br>
+                Сяє світлиця сватам. | (2)<br>
+                <br>
+                Скільки себе пам'ятаю<br>
+                Білим обрусом цвіла.<br>
+                В нашій світлиці, я знаю,<br>
+                Завше неділя була. | (2)<br>
+                <br>
+                Приспів.<br>
+                <br>
+                Може далеко від дому<br>
+                Крила зів'януть мої,<br>
+                Згасне зоря, а по тому<br>
+                Змовкнуть навік солов'ї. | (2)<br>
+                <br>
+                Сину, затям собі, сину<br>
+                Де б ти у світі не був<br>
+                Кожен світлицю покинув<br>
+                Але ніхто не забув. | (2)<br>
+                <br>
+                Приспів. (2)</p>
+            </div>
+          </div>
+        <!--Tabs-->
+
+        <!--Accordion-->
+        <h1>Accordion</h1>
+        <div id="accordion">
+            <h3>Про хлопа, поліцейського штраф і геополікику</h3>
+            <div>
+              <p>
+                Стою я в Берліні на хіднику і дивлюся, як до мене під’їжджає на мотоциклі поліцай.
+                <br>– Треба прибрати звідсіля цю машину.” – каже до мене поліцай.
+                <br>– Якого біса? Вона, начебто, нікому не заважає! – кажу я.
+                <br>Поліцейський злазить з мотоцикла, мовчки дістає квитанції, виписує на одній штраф в 100 Євро, і, дивлячись мені в очі, запихає її під двірник.
+                <br>– Негідник, – кажу я.
+                <br>Поліцай відриває ще одну квитанцію на 100 Євро і так само мовчки запихає її під двірник автомобіля.
+                <br>Я кажу йому: “фашист”. Він дістає чергову квитанцію і проробляє ту ж саму процедуру…
+                <br>Так тривало хвилин 15, поки у нього не скінчилися усі квитанції. Він сів на мотоцикл і поїхав… Йому було усе до сраки…
+                <br>Я знизав плечима, повернувся і пішов геть. Мені теж було усе до сраки. Це була не моя машина, а якогось із-за порєбріка…
+              </p>
+            </div>
+            <h3>Про велелюбне подружжя і склянку води</h3>
+            <div>
+              <p>
+                Закарпаття. Лягли чоловік з жінкою спати.
+                <br>– Сонце, давай займемеся коханням? – пропонує чоловік.
+                <br>– Син не спить, – відповідає жінка.
+                <br>– Та спить.
+                <br>– Нет, не спить, – наполягає жінка.
+                <br>– Айбо позерпай (никай): синку, принеси лим води…
+                <br>(тишина)
+                <br>– Видиш спить! – втішився чоловік.
+                <br>Шалене кохання, бурхлива кульмінація. Обоє в щасті на постелі.
+                <br>І тут лунає голос із темряви: “І довго я туй з кружков буду стояти?”
+              </p>
+            </div>
+            <h3>Про кмітливих гуцулів, які перевозили з України в Польщу мед</h3>
+            <div>
+              <p>
+                Підрулює газелька з брезентовим тентом на кузові. У кабіні 2 Гуцули, а під тентом 5 бідонів, доверху наповнених свіжовідкачаним медом.<br>
+                Митники зраділи, пожвавилися і, пред’явивши всякі папірці з приводу мита на вивіз меду за межі України, стали питально-вичікувально дивитися в очі Гуцулам.<br>
+                Один Гуцул не змигнувши оком заявляє, що це ЇХ мед, він його збирається загнати друзям-перекупникам в Польщі і, якщо пани-митники будуть такі люб’язні і скоріше їх пропустять, то по дорозі назад він обіцяє їм віддячити пляшкою польської горівки.<br>
+                Скривджені таким видним нерозумінням проблем чесних співробітників української митниці, ті заявляють, що без сплати повного мита (30% від ринкової вартості вантажу в Польщі, близько $200) вони вантаж не пропустять.<br>
+                Hа це Гуцул говорить, що і пляшку він тоді теж не поставить.<br>
+                У відповідь лунає дружний сміх митників і прикордонників. А потім починається справжній цирк. Газель з’їжджає з траси на травичку. Гуцул дзвонить кудись по мобільнику, вони з другим Гуцулом відкривають тент і кришки бідонів і сідають курити.<br>
+                За півгодини з польського боку під’їжджає критий гpузовичок і діловиті поляки вивантажують на травичку… 5 бджолиних вуликів і відкривають льотки.<br>
+                Далі Ви напевно вже представляєте. За неповних 2 години 5 роїв бджіл безмитно із зухвалим і безпардонним дзижчанням, під матюки прикордонників і скрегіт зубів митників об залізо прикордонного шлагбауму перекачують начисто весь вміст 5-ти бідонів до себе в вулики.<br>
+                Українці закривають тент і з гордим видом в’їжджають в Поляндію без краплі меду.<br>
+                Ось і борися після цього з контрабандою!
+              </p>
+            </div>
+            <h3>Про двох гуцулів і “Лебедине озеро”</h3>
+            <div>
+              <p>
+                Приїхали якось напередодні Великодня верховинці з Карпат до Львова.<br>
+                Щось до свят прикупити, містом пройтися,.. трохи смерід з тих всіх гусей-качок-свиней вивітрити…<br>
+                Коли втомилися вже ходити, зайшли до Львівської опери. А там якраз, в-акурат, показували балет «Лебедине озеро»…<br>
+                Сидять ото вони,.. сидять, дивляться. Балет в розпалі…<br>
+                Тут один в другого на вухо питається:<br>
+                – А чо то вони ніц-но цілий час навшпиньках скачуть?<br>
+                – Не знаю, сусіде. Лебедів багато,.. певно шо бояться їден на другого наступити…<br>
+                – Так-так,.. багато лебедів. Певно шо всеньке подвір’я в гімні…
+              </p>
+            </div>
+          </div>
+          <!--Accrodion-->
+
+        <!--Draggable-->
+        <h1>Draggable</h1>
+        <div id="draggable" class="ui-widget-content">
+            <img src="images/catcatie.png" width="110%" height="110%">
+          </div>
+        <!--Draggable-->
+        
+
+
+
+
+    </div>
+<!--SCRIPTS-->
+<script src="js/code.jquery.com_jquery-3.7.1.js"></script>
+
+<!--Owl Carousel-->
+<link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
+<script src="owlcarousel/owl.carousel.js"></script>
+
+<!--JQueryUI-->>
+<script src="js/code.jquery.com_ui_1.13.2_jquery-ui.js"></script>
+
+<!--Unite Gallery-->
+<script type="text/javascript" src="unitegallery/js/unitegallery.min.js"></script> 
+<link rel="stylesheet" href="unitegallery/css/unite-gallery.css" type="text/css" />
+
+<script type="text/javascript" src="unitegallery/themes/default/ug-theme-default.js"></script> 
+<link rel="stylesheet" href="unitegallery/themes/default/ug-theme-default.css" type="text/css" /> </head>
+
+<script>
+    $( function() {
+      $( "#draggable" ).draggable();
+    } );
+</script>
+
+<script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+</script>
+
+<script>
+    $( function() {
+      $( "#tabs" ).tabs();
+    } );
+</script>
+<!--JQueryUI-->
+
+<!--Owl Carousel-->
+<script>
+    $('.owl-carousel').owlCarousel({
+        margin:10,
+        loop:true,
+        autoWidth:true,
+        items:4
+    })
+</script>
+
+<!--Unite Gallery-->
+<script type="text/javascript"> 
+  jQuery(document).ready(function(){
+     jQuery("#gallery").unitegallery(); }); 
+</script>
+
+<script src='unitegallery/themes/video/ug-theme-video.js' type='text/javascript'></script>
+
+<!-- include one of the video skins -->
+
+<link  href='unitegallery/themes/video/skin-right-no-thumb.css' rel='stylesheet' type='text/css' />
+<link  href='unitegallery/themes/video/skin-right-thumb.css' rel='stylesheet' type='text/css' />
+<link  href='unitegallery/themes/video/skin-right-title-only.css' rel='stylesheet' type='text/css' />	
+<script>
+		jQuery("#gallery-video").unitegallery({
+			gallery_theme: "video"
+		});	
+</script>	
+
+</body>
+</html>
